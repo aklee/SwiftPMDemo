@@ -14,6 +14,6 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .binaryTarget(name: "GTSDK", path: "./Sources/GTSDK/GTSDK.xcframework"),
+        .binaryTarget(name: "GTSDK", path: "GTSDK.xcframework"),
     ]
 )
